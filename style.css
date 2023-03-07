@@ -20,8 +20,8 @@ body {
 
 .container {
     width: 80%;
-    margin: 0px auto;
-    /* margin: 30px auto; */
+    /* margin: 0px auto; */
+    margin: 30px auto;
     /* Overflow determines what to do if content overflows an elements box. Setting overflow to hidden will hide/clip the overflowing content */
     overflow: hidden;
 }
@@ -174,9 +174,55 @@ i {
     color: #f3df50;
 }
 
+/* About */
+#about {
+    background-color: #2d2b3e;
+    padding: 20px;
+}
 
+#about > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
 
+#about .main-col {
+    color: #fff;
+}
 
+#about .sidebar {
+    margin-top: 10px;
+}
 
+/* Services */
+#services > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 40px;
+}
 
+#services li {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+#services .sidebar {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#services input, #services textarea {
+    padding: 5px;
+    width: 90%;
+}
+
+footer {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
 
