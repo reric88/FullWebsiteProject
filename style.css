@@ -1,0 +1,102 @@
+/* Importing the Lato google font (regular and bold) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+
+
+/* Basic Styling */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    /* Overflow determines what to do if content overflows an elements box. Setting overflow to hidden will hide/clip the overflowing content */
+    overflow: hidden;
+}
+
+ul {
+    /* list-style: none; */
+}
+
+.btn-1 {
+    height: 38px;
+    background-color: #eb4442;
+    border: 0;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.light, .dark {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.light {
+    background-color: #e6e6e6;
+    color: #2d2b3e;
+}
+
+.dark {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+}
+
+header {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    /* Setting a min-height so the header section can expand if needed */
+    min-height: 70px;
+    border-bottom: 3px solid #eb4442;
+    padding: 5px 0;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a {
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#highlight, #current a {
+    color: #eb4442;
+    font-weight: 700;
+}
+
+#current a:hover, header a:hover {
+    color: #ccc;
+    font-weight: 700;
+
+    
+}
+
+
+
+
